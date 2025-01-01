@@ -13,6 +13,7 @@
     ../../modules/base
     ../../modules/desktop
     ../../modules/services
+    ../../modules/hardware
     ../../modules/impermanence
   ];
 

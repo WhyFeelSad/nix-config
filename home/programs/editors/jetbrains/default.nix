@@ -23,4 +23,6 @@ in
 
   xdg.configFile."JetBrains/IntelliJIdea${pkgs.jetbrains.idea-ultimate.version}/idea64.vmoptions".text =
     vmoptions;
+  xdg.configFile."JetBrains/DataGrip${pkgs.jetbrains.datagrip.version}/idea64.vmoptions".text =
+    vmoptions;
 }

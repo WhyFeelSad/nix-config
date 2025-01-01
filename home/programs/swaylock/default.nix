@@ -1,6 +1,11 @@
 {
+  pkgs,
+  ...
+}:
+{
   programs.swaylock = {
     enable = true;
+    package = pkgs.swaylock-effects;
     settings = {
       font = "Maple Mono NF CN";
       font-size = 50;

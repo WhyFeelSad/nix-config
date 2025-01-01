@@ -11,6 +11,7 @@
     ./hardware.nix
 
     ../../modules/base
+    ../../modules/desktop
     ../../modules/services
     ../../modules/impermanence
   ];

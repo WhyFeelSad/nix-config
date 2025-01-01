@@ -37,6 +37,7 @@
         }
 
         ".config/zsh"
+        ".local/share/flatpak"
       ];
       files = [ ];
     };

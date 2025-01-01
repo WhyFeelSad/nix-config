@@ -18,9 +18,7 @@
   networking.hostName = "beelink";
   networking.networkmanager.enable = true;
 
-  environment.systemPackages = [
-    pkgs.bottles
-  ];
+  services.flatpak.enable = true;
 
   system.stateVersion = "${myvars.stateVersion}";
 }

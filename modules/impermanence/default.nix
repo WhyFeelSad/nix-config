@@ -39,6 +39,7 @@
         ".config/zsh"
         ".local/share/flatpak"
         ".var/app"
+        ".config/fcitx5"
       ];
       files = [ ];
     };

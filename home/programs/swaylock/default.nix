@@ -1,7 +1,6 @@
 {
   programs.swaylock = {
     enable = true;
-    package = pkgs.swaylock;
     settings = {
       clock = true;
       show-failed-attempts = true;

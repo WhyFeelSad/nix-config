@@ -11,6 +11,8 @@
 
     impermanence.url = "github:nix-community/impermanence";
 
+    nix-flatpak.url = "github:gmodena/nix-flatpak";
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -22,6 +24,7 @@
       nixpkgs,
       disko,
       impermanence,
+      nix-flatpak,
       home-manager,
       ...
     }:
@@ -43,6 +46,7 @@
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
+              home-manager.extraSpecialArgs.flake-inputs = inputs;
               home-manager.extraSpecialArgs = {
                 inherit myvars;
               };

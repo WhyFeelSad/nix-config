@@ -11,8 +11,8 @@
     ./hardware.nix
 
     ../../modules/base
+    ../../modules/services
     ../../modules/impermanence
-    ../../modules/services/gnupg
   ];
 
   networking.hostName = "beelink";

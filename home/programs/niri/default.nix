@@ -11,7 +11,6 @@
 
     materialgram
     firefox
-    vscode
 
     xfce.thunar
   ];

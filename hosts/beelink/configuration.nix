@@ -12,6 +12,7 @@
 
     ../../modules/base
     ../../modules/desktop
+    ../../modules/security
     ../../modules/services
     ../../modules/hardware
     ../../modules/impermanence

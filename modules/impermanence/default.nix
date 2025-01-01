@@ -40,6 +40,17 @@
         ".local/share/flatpak"
         ".var/app"
         ".config/fcitx5"
+
+        ".npm"
+        ".java"
+
+        # JetBrains
+        ".config/JetBrains"
+        ".cache/JetBrains"
+        ".local/share/JetBrains"
+
+        # Vscode
+        ".config/Code"
       ];
       files = [ ];
     };

@@ -4,6 +4,7 @@
     ./git
     ./kitty
     ./niri
+    ./swaylock
     ./waybar
   ];
 }

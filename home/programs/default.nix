@@ -3,5 +3,6 @@
     ./git
     ./kitty
     ./niri
+    ./waybar
   ];
 }

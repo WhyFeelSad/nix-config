@@ -6,6 +6,11 @@
   ...
 }:
 {
+  imports = [
+    ./programs
+    ./shell
+  ];
+
   home = {
     username = "${myvars.userName}";
     homeDirectory = "/home/${myvars.userName}";

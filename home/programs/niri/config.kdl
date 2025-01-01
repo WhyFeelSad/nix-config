@@ -66,7 +66,7 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T { spawn "kitty"; }
     Mod+D { spawn "fuzzel"; }
-    Mod+Shift+B { spawn "firefox"; }
+    Mod+Shift+L { spawn "swaylock"; }
 
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.

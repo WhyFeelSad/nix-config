@@ -7,6 +7,16 @@
     enable = true;
     package = pkgs.swaylock-effects;
     settings = {
+      clock = true;
+      timestr = "%H:%M:%S";
+      datestr = "%Y-%d-%M";
+      # screenshots = true;
+      ignore-empty-password = true;
+
+      effect-blur = "7x5";
+      effect-vignette = "0.75:0.75";
+      effect-pixelate = 5;
+
       font = "Maple Mono NF CN";
       font-size = 50;
       indicator-radius = 100;

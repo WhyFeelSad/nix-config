@@ -1,4 +1,7 @@
-{ pkgs, ... }:
+{
+  pkgs,
+  ...
+}:
 let
   jetbra = pkgs.fetchFromGitHub {
     owner = "WhyFeelSad";
@@ -17,12 +20,12 @@ let
 in
 {
   home.packages = with pkgs; [
-    jetbrains.idea-ultimate
-    jetbrains.datagrip
-  ];
+    (pkgs.jetbrains.idea-ultimate.override {
+      vmopts = vmoptions;
+    })
 
-  xdg.configFile."JetBrains/IntelliJIdea${pkgs.jetbrains.idea-ultimate.version}/idea64.vmoptions".text =
-    vmoptions;
-  xdg.configFile."JetBrains/DataGrip${pkgs.jetbrains.datagrip.version}/idea64.vmoptions".text =
-    vmoptions;
+    (pkgs.jetbrains.datagrip.override {
+      vmopts = vmoptions;
+    })
+  ];
 }

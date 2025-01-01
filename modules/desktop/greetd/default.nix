@@ -17,10 +17,5 @@
         default_session = initial_session;
       };
     };
-    gnome = {
-      gnome-keyring = {
-        enable = true;
-      };
-    };
   };
 }

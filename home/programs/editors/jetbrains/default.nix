@@ -4,7 +4,7 @@ let
     owner = "WhyFeelSad";
     repo = "jetbra";
     rev = "631a187dfe45652f23a0d0b0a030abccc6c648f9";
-    sha256 = "sha256-NG4pbZhObt9YDWNsCnb+RChGgLMI5HhhjauRhQcf+5U=";
+    sha256 = "sha256-FvjwrmRE9xXkDIIkOyxVEFdycYa/t2Z0EgBueV+26BQ=";
   };
 
   vmoptions = ''

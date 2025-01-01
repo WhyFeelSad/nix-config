@@ -1,5 +1,6 @@
 {
   imports = [
+    ./fcitx
     ./fonts
     ./greetd
     ./niri

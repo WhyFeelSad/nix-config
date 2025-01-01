@@ -1,5 +1,6 @@
 {
   imports = [
+    ./editors
     # ./flatpak
     ./git
     ./kitty

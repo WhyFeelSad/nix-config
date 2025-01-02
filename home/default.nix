@@ -10,6 +10,7 @@
   imports = [
     flake-inputs.nix-flatpak.homeManagerModules.nix-flatpak
 
+    ./dev
     ./programs
     ./shell
   ];

@@ -2,6 +2,7 @@
   imports = [
     ./daed
     ./gnupg
-    ./incus
+    # ./incus
+    ./virt-manager
   ];
 }

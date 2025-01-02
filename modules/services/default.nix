@@ -2,5 +2,6 @@
   imports = [
     ./daed
     ./gnupg
+    ./incus
   ];
 }

@@ -7,7 +7,7 @@
     enable = true;
     package = (
       pkgs.vscode.override {
-        commandLineArgs = "--enable-features=UseOzonePlatform --ozone-platform=wayland";
+        commandLineArgs = "--ozone-platform=wayland";
       }
     );
   };

@@ -24,7 +24,7 @@ in
       vmopts = vmoptions;
     })
 
-    (pkgs.jetbrains.datagrip.override {
+    (pkgs.jetbrains.gateway.override {
       vmopts = vmoptions;
     })
   ];

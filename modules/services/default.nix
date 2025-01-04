@@ -3,7 +3,7 @@
     ./daed
     ./gnupg
     # ./incus
-    ./realm
+    # ./realm
     ./virt-manager
   ];
 }

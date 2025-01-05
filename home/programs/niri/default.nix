@@ -13,5 +13,6 @@
     firefox
 
     xfce.thunar
+    xwayland-satellite
   ];
 }

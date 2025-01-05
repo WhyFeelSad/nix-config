@@ -31,6 +31,7 @@ layout {
 
 spawn-at-startup "waybar"
 spawn-at-startup "swaybg" "-m" "fill" "-i" "/home/aaron/Pictures/wallpaper/akshar-dave-BcvPlibJyo0-unsplash.jpg"
+spawn-at-startup "xwayland-satellite"
 // spawn-at-startup "bash" "-c" "eww -c ~/.config/eww-bar open-many bar_1 niri_scroller"
 // spawn-at-startup "xwayland-satellite"
 // spawn-at-startup "bash" "-c" "ELECTRON_OZONE_PLATFORM_HINT=auto 1password --silent"
@@ -58,6 +59,10 @@ animations {
 window-rule {
     clip-to-geometry true
     geometry-corner-radius 8
+}
+
+environment {
+    DISPLAY ":0"
 }
 
 binds {

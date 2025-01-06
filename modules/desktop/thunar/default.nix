@@ -1,8 +1,4 @@
-{
-  pkgs,
-  ...
-}:
-{
+{pkgs, ...}: {
   programs.xfconf.enable = true;
   programs.thunar = {
     enable = true;

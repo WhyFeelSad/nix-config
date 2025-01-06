@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-
+{pkgs, ...}:
 # Reference: https://nixos.wiki/wiki/Yubikey
 {
   environment.systemPackages = with pkgs; [

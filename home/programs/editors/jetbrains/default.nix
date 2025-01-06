@@ -1,8 +1,4 @@
-{
-  pkgs,
-  ...
-}:
-let
+{pkgs, ...}: let
   jetbra = pkgs.fetchFromGitHub {
     owner = "WhyFeelSad";
     repo = "jetbra";
@@ -17,8 +13,7 @@ let
     -javaagent:${jetbra}/ja-netfilter.jar=jetbrains
     -Dawt.toolkit.name=WLToolkit
   '';
-in
-{
+in {
   home.packages = with pkgs; [
     (pkgs.jetbrains.idea-ultimate.override {
       vmopts = vmoptions;

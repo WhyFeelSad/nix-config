@@ -3,8 +3,7 @@
   pkgs,
   myvars,
   ...
-}:
-{
+}: {
   services = {
     greetd = {
       enable = true;

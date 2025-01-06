@@ -1,8 +1,4 @@
-{
-  myvars,
-  ...
-}:
-{
+{myvars, ...}: {
   programs = {
     git = {
       enable = true;

@@ -4,9 +4,7 @@
   pkgs,
   myvars,
   ...
-}:
-
-{
+}: {
   imports = [
     ./hardware.nix
 

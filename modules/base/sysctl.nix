@@ -2,8 +2,7 @@
   lib,
   config,
   ...
-}:
-{
+}: {
   boot.kernel.sysctl = {
     # Bufferbloat mitigations + slight improvement in throughput & latency
     "net.ipv4.tcp_congestion_control" = "bbr";

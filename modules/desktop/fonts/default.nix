@@ -1,8 +1,4 @@
-{
-  pkgs,
-  ...
-}:
-let
+{pkgs, ...}: let
   maple-mono-NF-CN = pkgs.maple-mono-NF.overrideAttrs (oldAttrs: rec {
     version = "7.0-beta32";
     pname = "MapleMono-NF-CN";
@@ -19,11 +15,9 @@ let
     daddy-time-mono
     symbols-only
   ];
-in
-{
+in {
   fonts = {
-    packages =
-      with pkgs;
+    packages = with pkgs;
       [
         noto-fonts
         noto-fonts-cjk-sans
@@ -35,7 +29,7 @@ in
     fontconfig = {
       enable = true;
       defaultFonts = {
-        emoji = [ "Noto Color Emoji" ];
+        emoji = ["Noto Color Emoji"];
         serif = [
           "Maple Mono NF CN"
           "Noto Serif CJK SC"

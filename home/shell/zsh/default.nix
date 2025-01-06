@@ -23,6 +23,7 @@
       la = "ls -la --color=auto";
       ls = "ls --color=auto";
       grep = "grep --color=auto";
+      mvn = "/home/aaron/Documents/JavaProject/apache-maven-3.8.4/bin/mvn";
     };
   };
 }

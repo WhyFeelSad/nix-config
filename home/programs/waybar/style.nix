@@ -18,7 +18,8 @@ let
     opacity = "1";
     indicator_height = "2px";
   };
-in {
+in
+{
   programs.waybar.style = with custom; ''
     * {
       border: none;

@@ -4,12 +4,13 @@
   lib,
   myvars,
   ...
-}: {
+}:
+{
   users.mutableUsers = false;
 
   users.groups = {
-    "${myvars.userName}" = {};
-    docker = {};
+    "${myvars.userName}" = { };
+    docker = { };
   };
 
   users.users = {
@@ -37,5 +38,5 @@
     };
   };
 
-  environment.pathsToLink = ["/share/zsh"];
+  environment.pathsToLink = [ "/share/zsh" ];
 }

@@ -5,7 +5,8 @@
   myvars,
   flake-inputs,
   ...
-}: {
+}:
+{
   imports = [
     flake-inputs.nix-flatpak.homeManagerModules.nix-flatpak
 

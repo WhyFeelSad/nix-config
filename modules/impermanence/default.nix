@@ -1,4 +1,5 @@
-{myvars, ...}: {
+{ myvars, ... }:
+{
   environment.persistence."/persistent" = {
     hideMounts = true;
     directories = [
@@ -9,7 +10,7 @@
       "/var/log"
       "/var/lib"
     ];
-    files = [];
+    files = [ ];
 
     users."${myvars.userName}" = {
       directories = [
@@ -48,7 +49,7 @@
         # Vscode
         ".config/Code"
       ];
-      files = [];
+      files = [ ];
     };
   };
 }

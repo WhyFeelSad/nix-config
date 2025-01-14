@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   services.daed = {
     enable = true;
     openFirewall = {
@@ -10,6 +11,6 @@
   };
 
   environment.persistence = {
-    "/persistent".directories = ["/etc/daed"];
+    "/persistent".directories = [ "/etc/daed" ];
   };
 }
